@@ -480,3 +480,7 @@ input[type="checkbox"]{
 		padding-top: 11px;
 	}
 }
+.wrapper{
+	diplay: grid;
+	margin: 5px;
+}
