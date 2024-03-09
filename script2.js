@@ -23,11 +23,15 @@ const fixedQuestions =  [
     "what are the programs offered",
     "available programs",
     "programs available",
-    "courses avaialble",
+    "courses available",
     "available courses",
     "who are you?",
     "what is your name",
-    "who are you"
+    "who are you",
+    "what courses the school offer?",
+    "what courses does the school offers?",
+    "courses offered",
+    "programs offered"
 	];
 
 
@@ -57,7 +61,11 @@ const fixedAnswers =  [
     "Saint Peter's College of Toril offered the following programs: Kindergraten, Elementary, Junior Highschool, Senior Highschool: STEM, HUMSS, ABM, ICT. For college programs: Bachelor's of Secondary Education(BSED) Major: Science, Filipino, English, Mathematics,  Bachelor of Science in Business Administration(BSBA)Majors: Human Resource Management, Finanacial Management, Marketing Management. Bachelor's of Science in Information Technology.",
     "My name is Nortrom the chatbot, I am here to assist you.",
     "My name is Nortrom the chatbot, I am here to assist you.",
-    "My name is Nortrom the chatbot, I am here to assist you."
+    "My name is Nortrom the chatbot, I am here to assist you.",
+    "Saint Peter's College of Toril offered the following programs: Kindergraten, Elementary, Junior Highschool, Senior Highschool: STEM, HUMSS, ABM, ICT. For college programs: Bachelor's of Secondary Education(BSED) Major: Science, Filipino, English, Mathematics,  Bachelor of Science in Business Administration(BSBA)Majors: Human Resource Management, Finanacial Management, Marketing Management. Bachelor's of Science in Information Technology.",
+    "Saint Peter's College of Toril offered the following programs: Kindergraten, Elementary, Junior Highschool, Senior Highschool: STEM, HUMSS, ABM, ICT. For college programs: Bachelor's of Secondary Education(BSED) Major: Science, Filipino, English, Mathematics,  Bachelor of Science in Business Administration(BSBA)Majors: Human Resource Management, Finanacial Management, Marketing Management. Bachelor's of Science in Information Technology.",
+    "Saint Peter's College of Toril offered the following programs: Kindergraten, Elementary, Junior Highschool, Senior Highschool: STEM, HUMSS, ABM, ICT. For college programs: Bachelor's of Secondary Education(BSED) Major: Science, Filipino, English, Mathematics,  Bachelor of Science in Business Administration(BSBA)Majors: Human Resource Management, Finanacial Management, Marketing Management. Bachelor's of Science in Information Technology.",
+    "Saint Peter's College of Toril offered the following programs: Kindergraten, Elementary, Junior Highschool, Senior Highschool: STEM, HUMSS, ABM, ICT. For college programs: Bachelor's of Secondary Education(BSED) Major: Science, Filipino, English, Mathematics,  Bachelor of Science in Business Administration(BSBA)Majors: Human Resource Management, Finanacial Management, Marketing Management. Bachelor's of Science in Information Technology."
 	];
 
 function sendMessage(){
