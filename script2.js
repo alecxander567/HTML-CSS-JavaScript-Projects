@@ -17,7 +17,8 @@ const fixedQuestions =  [
     "what are the requirements?",
     "What are the courses?",
     "How many courses available?",
-    "thanks"
+    "thanks",
+    "what are the available courses?"	
 	];
 
 
@@ -37,7 +38,8 @@ const fixedAnswers =  [
     "The following are the requirements to enroll: For freshmen: 1. Must pass the entrance examination 2. Senior High School Report Card 3. Good Moral Certificate 4. Police Clearance 5. PSA/NSO Authenticated Birth Certificate 6. PSA/NSO Marriage Certificate (for married women) 7. Latest 1x1 ID Picture For Transferees: 1. Honorable Dissmissal/Transfer Credential 2. SPR/TQR for Evaluation 3. Good Moral Certificate 4. Police Clearance 5. PSA/NSO Marriage Certificate (for married women) 6. PSA/NSO Authenticated Birth Certificate 7. Latest 1x1 ID Picture Note: Some of the requirements can be followed up.",
     "Saint Peter's College of Toril offered the following programs: Kindergraten, Elementary, Junior Highschool, Senior Highschool: STEM, HUMSS, ABM, ICT. For college programs: Bachelor's of Secondary Education(BSED) Major: Science, Filipino, English, Mathematics,  Bachelor of Science in Business Administration(BSBA)Majors: Human Resource Management, Finanacial Management, Marketing Management. Bachelor's of Science in Information Technology.",
     "Saint Peter's College of Toril offered the following programs: Kindergraten, Elementary, Junior Highschool, Senior Highschool: STEM, HUMSS, ABM, ICT. For college programs: Bachelor's of Secondary Education(BSED) Major: Science, Filipino, English, Mathematics,  Bachelor of Science in Business Administration(BSBA)Majors: Human Resource Management, Finanacial Management, Marketing Management. Bachelor's of Science in Information Technology.",
-    "You're welcome."
+    "You're welcome.",
+    "Saint Peter's College of Toril offered the following programs: Kindergraten, Elementary, Junior Highschool, Senior Highschool: STEM, HUMSS, ABM, ICT. For college programs: Bachelor's of Secondary Education(BSED) Major: Science, Filipino, English, Mathematics,  Bachelor of Science in Business Administration(BSBA)Majors: Human Resource Management, Finanacial Management, Marketing Management. Bachelor's of Science in Information Technology."
 	];
 
 function sendMessage(){
