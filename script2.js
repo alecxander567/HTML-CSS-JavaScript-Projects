@@ -51,7 +51,9 @@ const fixedQuestions =  [
     "bsit program head?",
     "bsit program head",
     "who is the program head of bsit?",
-    "who is the program head for bsit"
+    "who is the program head for bsit",
+    "program head bsit?",
+    "program head bsit"
 	];
 
 
@@ -96,6 +98,8 @@ const fixedAnswers =  [
     "Saint Peter's College of Toril offered the following programs: Kindergraten, Elementary, Junior Highschool, Senior Highschool: STEM, HUMSS, ABM, ICT. For college programs: Bachelor's of Secondary Education(BSED) Major: Science, Filipino, English, Mathematics,  Bachelor of Science in Business Administration(BSBA)Majors: Human Resource Management, Finanacial Management, Marketing Management. Bachelor's of Science in Information Technology.",
     "President : Lorna Murillo PM Phd, Finance Manager: Michelle Caligner PM PhD, Campus Ministry: April Hiquial PM, General Services Officer: Estrella Soriano, Office of the Students Affair Head: Janrey Solana, Dean of College: Atty. Grecel Paclipan, BSED Program Head: Dr. Katherine Rosales, BSBA Program Head: Dr. Marybeth Lauron, IT Program Head: Atty. Grecel Paclipan",
     "President : Lorna Murillo PM Phd, Finance Manager: Michelle Caligner PM PhD, Campus Ministry: April Hiquial PM, General Services Officer: Estrella Soriano, Office of the Students Affair Head: Janrey Solana, Dean of College: Atty. Grecel Paclipan, BSED Program Head: Dr. Katherine Rosales, BSBA Program Head: Dr. Marybeth Lauron, IT Program Head: Atty. Grecel Paclipan",
+    "The BSIT program head is Atty. Grecel Paclipan, for further information please visit us.",
+    "The BSIT program head is Atty. Grecel Paclipan, for further information please visit us.",
     "The BSIT program head is Atty. Grecel Paclipan, for further information please visit us.",
     "The BSIT program head is Atty. Grecel Paclipan, for further information please visit us.",
     "The BSIT program head is Atty. Grecel Paclipan, for further information please visit us.",
