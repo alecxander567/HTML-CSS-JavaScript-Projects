@@ -53,7 +53,14 @@ const fixedQuestions =  [
     "who is the program head of bsit?",
     "who is the program head for bsit",
     "program head bsit?",
-    "program head bsit"
+    "program head bsit",
+    "How much is the tuition?",
+    "how much is the tuition",
+    "how much is the tuition fee?",
+    "how much is the tuition fee",
+    "how much is the tuition for college?",
+    "how much is the tuition for college",
+    "college tuition fee"
 	];
 
 
@@ -109,7 +116,14 @@ const fixedAnswers =  [
     "The BSIT program head is Atty. Grecel Paclipan, for further information please visit us.",
     "The BSIT program head is Atty. Grecel Paclipan, for further information please visit us.",
     "The BSIT program head is Atty. Grecel Paclipan, for further information please visit us.",
-    "The BSIT program head is Atty. Grecel Paclipan, for further information please visit us."
+    "The BSIT program head is Atty. Grecel Paclipan, for further information please visit us.",
+    "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
+    "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
+    "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
+    "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
+    "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
+    "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
+    "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58"
 	];
 
 function sendMessage(){
