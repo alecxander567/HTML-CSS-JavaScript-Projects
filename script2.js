@@ -60,7 +60,14 @@ const fixedQuestions =  [
     "how much is the tuition fee",
     "how much is the tuition for college?",
     "how much is the tuition for college",
-    "college tuition fee"
+    "college tuition fee",
+    "who is the bsed program head?",
+    "who is the bsed program head",
+    "BSED program head",
+    "program head bsed",
+    "Who is the bsba program head?",
+    "bsba program head",
+    "program head bsba"
 	];
 
 
@@ -123,7 +130,14 @@ const fixedAnswers =  [
     "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
     "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
     "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
-    "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58"
+    "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
+    "The BSED Program Head is Dr. Katherine Rosales, for further questions and informations please visit us.",
+    "The BSED Program Head is  Dr. Katherine Rosales, for further questions and informations please visit us.",
+    "The BSED Program Head is Dr. Katherine Rosales, for further questions and informations please visit us.",
+    "The BSED Program Head is Dr. Katherine Rosales, for further questions and informations please visit us.",
+    "The BSBA Program Head is Dr. Marybeth Lauron, for further questions and informations please visit us.",
+    "The BSBA Program Head is Dr. Marybeth Lauron, for further questions and informations please visit us.",
+    "The BSBA Program Head is Dr. Marybeth Lauron, for further questions and informations please visit us."
 	];
 
 function sendMessage(){
