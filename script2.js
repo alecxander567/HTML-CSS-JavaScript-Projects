@@ -67,7 +67,13 @@ const fixedQuestions =  [
     "program head bsed",
     "Who is the bsba program head?",
     "bsba program head",
-    "program head bsba"
+    "program head bsba",
+    "heads of the school?",
+    "heads of the school",
+    "School head",
+    "college tuition",
+    "tuition",
+    "requirements"
 	];
 
 
@@ -137,7 +143,13 @@ const fixedAnswers =  [
     "The BSED Program Head is Dr. Katherine Rosales, for further questions and informations please visit us.",
     "The BSBA Program Head is Dr. Marybeth Lauron, for further questions and informations please visit us.",
     "The BSBA Program Head is Dr. Marybeth Lauron, for further questions and informations please visit us.",
-    "The BSBA Program Head is Dr. Marybeth Lauron, for further questions and informations please visit us."
+    "The BSBA Program Head is Dr. Marybeth Lauron, for further questions and informations please visit us.",
+    "President : Lorna Murillo PM Phd, Finance Manager: Michelle Caligner PM PhD, Campus Ministry: April Hiquial PM, General Services Officer: Estrella Soriano, Office of the Students Affair Head: Janrey Solana, Dean of College: Atty. Grecel Paclipan, BSED Program Head: Dr. Katherine Rosales, BSBA Program Head: Dr. Marybeth Lauron, IT Program Head: Atty. Grecel Paclipan",
+    "President : Lorna Murillo PM Phd, Finance Manager: Michelle Caligner PM PhD, Campus Ministry: April Hiquial PM, General Services Officer: Estrella Soriano, Office of the Students Affair Head: Janrey Solana, Dean of College: Atty. Grecel Paclipan, BSED Program Head: Dr. Katherine Rosales, BSBA Program Head: Dr. Marybeth Lauron, IT Program Head: Atty. Grecel Paclipan",
+    "President : Lorna Murillo PM Phd, Finance Manager: Michelle Caligner PM PhD, Campus Ministry: April Hiquial PM, General Services Officer: Estrella Soriano, Office of the Students Affair Head: Janrey Solana, Dean of College: Atty. Grecel Paclipan, BSED Program Head: Dr. Katherine Rosales, BSBA Program Head: Dr. Marybeth Lauron, IT Program Head: Atty. Grecel Paclipan",
+    "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
+    "College Department: Total Student Services(New Student): 3,936.38, (Old Students): 3,719.58, Total other fees: (New Student): 530.00, (Old Student): 120.00, To be paid upon enrollment: (New Student): 4,616.38, (Old Student): 3,839.58",
+    "The following are the requirements to enroll: For freshmen: 1. Must pass the entrance examination 2. Senior High School Report Card 3. Good Moral Certificate 4. Police Clearance 5. PSA/NSO Authenticated Birth Certificate 6. PSA/NSO Marriage Certificate (for married women) 7. Latest 1x1 ID Picture For Transferees: 1. Honorable Dissmissal/Transfer Credential 2. SPR/TQR for Evaluation 3. Good Moral Certificate 4. Police Clearance 5. PSA/NSO Marriage Certificate (for married women) 6. PSA/NSO Authenticated Birth Certificate 7. Latest 1x1 ID Picture Note: Some of the requirements can be followed up."
 	];
 
 function sendMessage(){
