@@ -407,7 +407,7 @@ input[type="checkbox"]{
 	border-radius: 50%;
 	border: 3px solid grey;
 	position: relative;
-	left: 470px;
+	left: 390px;
 	top: 25px;
 }
 .robot{
@@ -428,7 +428,7 @@ input[type="checkbox"]{
 	height: 100px;
 	border-radius: 50%;
 	border: 3px solid grey;
-	position: relative;
+	position: absolute;
 	left: 580px;
 	top: 25px;
 }
