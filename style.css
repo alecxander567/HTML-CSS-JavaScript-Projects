@@ -32,6 +32,7 @@ background: transparent;
 	-webkit-text-stroke: 3px white;
 	font-weight: bold;
 	font-family: 'Roboto';
+	margin-top: 10px;
 }
 .banner-text p{
 	font-size: 20px;
