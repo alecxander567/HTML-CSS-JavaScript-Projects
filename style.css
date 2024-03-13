@@ -13,7 +13,7 @@
 }
 .logo{
 	width: 100px;
-	position: absolute;
+	position: relative;
 	top: 25px;
 	left: 610px;
 	border-radius: 50%;
