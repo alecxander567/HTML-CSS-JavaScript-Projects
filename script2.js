@@ -184,5 +184,5 @@ function processInput(userInput){
     	return fixedAnswers[index];
     }
 
-    return "I'm sorry, I don't understand. Could you please be more specific?";
+    return "For further questions and informations, please visit us or contact us at 291-2007 or email us at saintpetertoril@yahoo.com";
 }
