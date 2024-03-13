@@ -14,7 +14,7 @@
 .container{
 	display: flex;
 	justify-content: center:
-	margin: 50px;
+	margin-left: 50px;
 }
 .logo, .chatbot-logo, .anniv {
   width: 100px;
