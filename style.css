@@ -11,13 +11,15 @@
 	height: 100vh auto;
 	padding-bottom: 120px;
 }
-.logo{
-	width: 100px;
-	position: relative;
-	top: 25px;
-	left: 610px;
-	border-radius: 50%;
-	border: 3px solid grey;
+.container{
+	display: flex;
+	justify-content: center:
+}
+.logo, .chatbot-logo, .anniv {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid grey;
 }
 .banner-text{
 	text-align: center;
@@ -401,15 +403,7 @@ input[type="checkbox"]{
 		transform: scale(1);
 	}
 }
-.chatbot-logo{
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	border: 3px solid grey;
-	position: relative;
-	left: 360px;
-	top: 25px;
-}
+
 .robot{
 	background: blueviolet;
 	color: whitesmoke;
@@ -422,15 +416,6 @@ input[type="checkbox"]{
 	 top: 45px;
 	 left: -15px;
     padding: 2px;
-}
-.anniv{
-   width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	border: 3px solid grey;
-	position: absolute;
-	right: 520px;
-	top: 25px;
 }
 @media only screen and (max-width: 768px){
 	.chatbot{
