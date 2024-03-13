@@ -432,7 +432,7 @@ input[type="checkbox"]{
 	left: 580px;
 	top: 25px;
 }
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 768px){
 	.chatbot{
 		width: 80%;
 		height: auto;
