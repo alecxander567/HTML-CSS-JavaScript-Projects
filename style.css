@@ -11,16 +11,11 @@
 	height: 100vh auto;
 	padding-bottom: 120px;
 }
-.container{
-	display: flex;
-	justify-content: center:
-	margin-left: 50px;
-}
-.logo, .chatbot-logo, .anniv {
+.logo{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-	margin-left: 50px;
+   margin-left: 50px;
   border: 3px solid grey;
 }
 .banner-text{
