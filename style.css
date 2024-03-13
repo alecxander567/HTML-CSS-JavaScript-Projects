@@ -429,7 +429,7 @@ input[type="checkbox"]{
 	border-radius: 50%;
 	border: 3px solid grey;
 	position: absolute;
-	right: 220px;
+	right: 520px;
 	top: 25px;
 }
 @media only screen and (max-width: 768px){
