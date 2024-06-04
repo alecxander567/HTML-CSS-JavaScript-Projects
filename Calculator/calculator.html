@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+         <title>My Claculator</title>
+         <link rel="stylesheet" href="calculator.css">
+	</head>
+	<body>
+		
+		<div class="container">
+			<input type="text" id="input1">
+			<label>First Input</label>
+			<input type="text" id="input2">
+			<label>Second Input</label>
+			<button id="plus" onclick="calcu1()">+</button>
+			<button id="minus" onclick="calcu2()">-</button>
+			<button id="multiply" onclick="calcu3()">*</button>
+			<button id="divide" onclick="calcu4()">/</button>
+			<button id="equals" onclick="myFunction()">Calculate</button>
+			<button id="clear" onclick="clearAll()">Reset</button>
+			<h1 id="result"></h1>	
+		</div>
+
+		<script>
+			let userInput1 = document.getElementById("input1");
+			let iserInput2 = document.getElementById("input2");
+
+			const addition = document.getElementById("plus");
+			const subtraction = document.getElementById("minus");
+			const multiplication = document.getElementById("multiply");
+			const division = document.getElementById("divide");
+
+			let calc = document.getElementById("equals");
+			let del = document.getElementById("clear");
+			let total = document.getElementById("result");
+
+			function calcu1(){
+				equals = parseFloat(input1.value) + parseFloat(input2.value);
+				addition.style.border = "2px solid orange";
+			}
+
+			function calcu2(){
+				equals = parseFloat(input1.value) - parseFloat(input2.value);
+				minus.style.border = "2px solid orange";
+			}
+
+			function calcu3(){
+				equals = parseFloat(input1.value) * parseFloat(input2.value);
+				multiply.style.border = "2px solid orange";
+			}
+
+			function calcu4(){
+				equals = parseFloat(input1.value) / parseFloat(input2.value);
+				division.style.border = "2px solid orange";
+			}
+
+			function myFunction(){
+				result.innerHTML = equals;
+			}
+
+			function clearAll(){
+				addition.style.border = "2px solid black";
+			 	subtraction.style.border = "2px solid black";
+			 	multiplication.style.border = "2px solid black";
+			 	division.style.border = "2px solid black";
+			 	result.innerHTML = "";
+			}
+
+
+		</script>
+	</body>
+</html>
