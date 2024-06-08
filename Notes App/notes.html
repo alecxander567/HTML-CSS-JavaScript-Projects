@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">	
+		<title>Notes App</title>
+		<link rel="stylesheet" href="notes.css">
+	</head>
+	<body id="container">
+		
+
+		<heading class="title">
+			<h1>Notes</h1>
+			<img src="img/notes.png" class="notes">
+		</heading>
+		<button id="create">New +</button>
+		<div id="content" contenteditable="true">	
+
+		</div>
+      
+      <script>
+      	
+      	function createEle(){
+      	let container = document.getElementById("container");
+      	let create = document.getElementById("create");
+      	let content = document.getElementById("content");
+
+      	let newElement = document.createElement("div");
+      	newElement.id = "content";
+      	newElement.setAttribute('contenteditable', true)
+      	let newBtn = document.createElement("button");
+      	newBtn.id = "del";
+      	newBtn.textContent = "Delete";
+ 	
+    	container.appendChild(newElement);
+        container.appendChild(newBtn);
+
+      	function delEle(){
+     	newElement.remove();
+     	newBtn.style.visibility = "hidden";    	
+     	}
+
+     	newBtn.addEventListener("click", delEle);
+      }
+
+      	create.addEventListener("click", createEle); 
+
+
+      </script>
+	</body>
+</html>
