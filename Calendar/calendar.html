@@ -32,8 +32,8 @@
         month.innerText = months[newMonth.getMonth()];
         day.innerText = '0' + newDay.getDate();
 
-        if(newDay <= 10){         
-            day.innerText.remove('0');
+        if(newDay >= 10){         
+            day.innerText.replace(/0/g, '');
         }
     </script>
 </body>
