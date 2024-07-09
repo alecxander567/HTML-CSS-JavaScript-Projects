@@ -30,11 +30,8 @@
 
         year.innerText = newYear.getFullYear();
         month.innerText = months[newMonth.getMonth()];
-        day.innerText = '0' + newDay.getDate();
+        day.innerText = newDay.getDate();
 
-        if(newDay >= 10){         
-            day.innerText.replace(/0/g, '');
-        }
     </script>
 </body>
 </html>
