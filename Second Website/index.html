@@ -12,7 +12,7 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid myNav">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Website Name</a>
+                <a class="navbar-brand" href="#" id="name">Website Name</a>
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="#" id="home">Home</a></li>
@@ -91,7 +91,8 @@
         <script>
 
             document.addEventListener('DOMContentLoaded', function(){
-         
+
+                const name = doument.getElementById('name');
                 const home = document.getElementById('home');
                 const content = document.getElementById('content');
                 const about = document.getElementById('about');
@@ -116,6 +117,12 @@
                    section3.style.animation = 'slide3 1s forwards';
                    section2.style.animation = 'slideUp 1s forwards';
                    front.style.animation = 'slide 1s forwards';
+                });
+
+                name.addEventListener('click', function(){
+                    front.style.animation = 'slideBack 1s forwards';
+                    section2.style.animation = 'slideBack2 1s forwards';
+                    section3.style.animation = 'slideBack3 1s forwards';
                 });
 
             });
