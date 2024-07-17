@@ -1,4 +1,4 @@
-            let firstItem = document.getElementById("firstQuestion");
+            		let firstItem = document.getElementById("firstQuestion");
 			let secondItem = document.getElementById("question2");
 			let thirdItem = document.getElementById("question3");
 			let item1 = document.getElementById("item1");
