@@ -1,4 +1,4 @@
-            let userInput1 = document.getElementById("input1");
+           	 	let userInput1 = document.getElementById("input1");
 			let iserInput2 = document.getElementById("input2");
 
 			const addition = document.getElementById("plus");
