@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: black;
+    height: auto;
+    padding-top: 490px;
+    height: fit-content;
+    padding-bottom: 0;
+}
+
+.orbit{
+    position: relative;
+    border: 1px solid white;
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    border-radius: 50%;
+    top: 1px;
+    animation: rotate 5s linear infinite;
+    padding: 20px;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit2{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: auto;
+    top: -195px;
+    width: 290px;
+    height: 290px;
+    animation: rotate2 10s linear infinite;
+}
+
+@keyframes rotate2{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit3{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: auto;
+    top: -521px;
+    width: 370px;
+    height: 370px;
+    animation: rotate3 30s linear infinite;
+}
+
+@keyframes rotate3{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit4{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: auto;
+    top: -930px;
+    width: 450px;
+    height: 450px;
+    animation: rotate5 20s linear infinite;
+}
+
+@keyframes rotate5{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit5{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: auto;
+    top: -1413px;
+    width: 520px;
+    height: 520px;
+    animation: rotate6 15s linear infinite;
+}
+
+@keyframes rotate6{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit6{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: auto;
+    top: -1980px;
+    width: 610px;
+    height: 610px; 
+    animation: rotate7 25s linear infinite;
+}
+
+@keyframes rotate7{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit7{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: auto;
+    top: -2640px;
+    width: 720px;
+    height: 720px;  
+    animation: rotate7 40s linear infinite;
+}
+
+@keyframes rotate7{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit8{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: auto;
+    top: -3420px;
+    width: 830px;
+    height: 830px;  
+    animation: rotate7 70s linear infinite;
+}
+
+@keyframes rotate7{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#sun{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px orangered;
+    background: linear-gradient(140deg, red, orange, yellow);
+    margin: auto;
+    margin-top: -165px;
+}
+
+#mercury{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    background: linear-gradient(140deg, grey, lightgrey, white);
+}
+
+#venus{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    background: linear-gradient(140deg, yellow, orangered, yellow);
+    margin-top: 30px;
+}
+
+#earth{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    background: linear-gradient(140deg, blue, greenyellow);
+    margin-top: 60px;
+}
+
+#mars{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    background: linear-gradient(140deg, brown, brown, red);
+    margin-top: 100px; 
+}
+
+#jupiter{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    background: linear-gradient(140deg, #3d251e, #765341, maroon);
+    margin-top: 90px;
+}
+
+.ring{
+    width: 70px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 60%;
+    margin-top: 110px;
+}
+
+#saturn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    background: linear-gradient(140deg, #bca89f, #a08679, #d8cbc4);
+    margin-left: 15px;
+    margin-top: -3px;
+}
+
+#uranus{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    background: linear-gradient(140deg, skyblue, white);
+    margin-top: 190px;
+}
+
+#neptune{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    background: linear-gradient(140deg, blue, skyblue);
+    margin-top: 250px;
+}
+
+#desc1{
+    position: relative;
+    width: 340px;
+    height: 340px;
+    border-radius: 30px;
+    padding: 30px;
+    background: lightgrey;
+    top: -3198px;
+    left: 50px;
+}
+
+#img1{
+    position: relative;
+    top: -3530px;
+    left: 420px;
+}
+
+#desc2{
+    position: relative;
+    width: 340px;
+    height: 340px;
+    border-radius: 30px;
+    padding: 30px;
+    background: lightgrey;
+    top: -3743px;
+    left: 50px;
+    visibility: hidden;
+}
+
+
+#img2{
+    position: relative;
+    top: -4050px;
+    left: 420px;
+    visibility: hidden;
+}
+
+#desc3{
+    position: relative;
+    width: 340px;
+    height: 340px;
+    border-radius: 30px;
+    padding: 30px;
+    background: lightgrey;
+    top: -4340px;
+    left: 50px;
+    visibility: hidden;
+}
+
+#img3{
+    position: relative;
+    top: -4670px;
+    width: 250px;
+    height: 250px;
+    left: 420px;
+    visibility: hidden;
+}
+
+#desc4{
+    position: relative;
+    width: 340px;
+    height: 340px;
+    border-radius: 30px;
+    padding: 30px;
+    background: lightgrey;
+    top: -4935px;
+    left: 50px;
+    visibility: hidden;
+}
+
+#img4{
+    position: relative;
+    top: -5270px;
+    width: 250px;
+    height: 250px;
+    left: 420px;
+    visibility: hidden;
+}
+
+#desc5{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    border-radius: 30px;
+    padding: 30px;
+    background: lightgrey;
+    top: 1245px;
+    left: 50px;
+    visibility: hidden;
+}
+
+#img5{
+    position: relative;
+    top: -5270px;
+    width: 250px;
+    height: 250px;
+    left: 150px;
+    visibility: hidden;
+}
+
+#desc6{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    border-radius: 30px;
+    padding: 30px;
+    background: lightgrey;
+    top: 1245px;
+    left: 50px;
+    visibility: hidden;
+}
+
+#img6{
+    position: absolute;
+    top: 1250px;
+    left: 450px;
+    visibility: hidden;
+}
+
+#desc7{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    border-radius: 30px;
+    padding: 30px;
+    background: lightgrey;
+    top: 1245px;
+    left: 50px;
+    visibility: hidden;
+}
+
+#img7{
+    position: absolute;
+    top: 1250px;
+    left: 425px;
+    visibility: hidden;
+}
+
+#desc8{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    border-radius: 30px;
+    padding: 30px;
+    background: lightgrey;
+    top: 1245px;
+    left: 50px;
+    visibility: hidden;
+}
+
+#img8{
+    position: absolute;
+    top: 1250px;
+    left: 425px;
+    visibility: hidden;
+}
+
+#next1{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background: blueviolet;
+    position: relative;
+    top: -5100px;
+    left: -440px;
+}
+
+#next2{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background: blueviolet;
+    position: relative;
+    top: -5100px;
+    left: -530px;
+    visibility: hidden;
+}
+
+#next3{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background: blueviolet;
+    position: relative;
+    top: -5100px;
+    left: -618px;
+    visibility: hidden;
+}
+
+#next4{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background: blueviolet;
+    position: relative;
+    top: -5100px;
+    left: -707px;
+    visibility: hidden;
+}
+
+#next5{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background: blueviolet;
+    position: relative;
+    top: -5100px;
+    left: -797px;
+    visibility: hidden;
+}
+
+#next6{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background: blueviolet;
+    position: relative;
+    top: -5100px;
+    left: -883px;
+    visibility: hidden;
+}
+
+#next7{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background: blueviolet;
+    position: relative;
+    top: -5100px;
+    left: -972px;
+    visibility: hidden;
+}
+
+#next8{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background: blueviolet;
+    position: relative;
+    top: -5100px;
+    left: -1060px;
+    visibility: hidden; 
+}
+
