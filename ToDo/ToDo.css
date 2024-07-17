@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background: linear-gradient(140deg, #330066, #4B0082, #9400D3);
+	background-size: cover;
+	height: 100vh;
+	padding-bottom: 50px;
+}
+#container{
+	width: 650px;
+	border-radius: 30px;
+	background: whitesmoke;
+	box-shadow: 0 0 10px;
+	margin: auto;
+	margin-top: 50px;
+	border: 2px solid;
+	height: auto;
+	padding-bottom: 30px;
+}
+.heading{
+	padding: 20px;
+	font-size: 15px;
+	text-align: left;
+    color: whitesmoke;
+    background: #FF3C00;
+    border-radius: 30px;
+}
+.note{
+	width: 60px;
+	height: 60px;
+	float: right;
+	margin-top: -48px;
+}
+.text{
+	font-size: 25px;
+	color: black;
+	text-align: left;
+	margin-top: 30px;
+	margin-left: 35px;
+}
+#input{
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 30px;
+	margin-top: 30px;
+    margin-left: 30px;
+    width: 460px;
+}
+#add{
+	padding: 15px;
+	font-size: 20px;
+	color: whitesmoke;
+	background: #FF3C00;
+	border-radius: 30px;
+	border: none;
+	float: right;
+	margin-top: 25px;
+	margin-right: 50px;
+	cursor: pointer;
+}
+#add:hover{
+	background: white;
+	color: black;
+	border: 3px solid black;
+}
+.done{
+	text-decoration: line-through;
+	color: grey;
+}
+#list{
+	font-size: 25px;
+    margin-left: 50px;
+    margin-top: 45PX;
+}
+#check{
+	width: 23px;
+    height: 23px;
+    position: relative;
+    left: 20px;
+    float: left;
+    top: 3px;
+}
+#forDelete{
+	padding: 10px;
+	background: #000080;
+	color: whitesmoke;
+	border: none;
+	font-size: 10px;
+	border-radius: 30px;
+	float: right;
+	margin-right: 50px;
+	cursor: pointer;
+}
