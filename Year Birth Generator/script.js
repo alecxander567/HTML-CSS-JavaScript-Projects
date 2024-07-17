@@ -1,4 +1,4 @@
-let yearCont = document.getElementById('yearCont');
+        let yearCont = document.getElementById('yearCont');
         let age = document.getElementById('age');
         const enterAge = document.getElementById('enterAge');
 
