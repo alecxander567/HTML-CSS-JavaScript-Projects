@@ -1,4 +1,4 @@
-let month = document.getElementById('month');
+        let month = document.getElementById('month');
         let year = document.getElementById('year');
         let day = document.getElementById('day');
 
