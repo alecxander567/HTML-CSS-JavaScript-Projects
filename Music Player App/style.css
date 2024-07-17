@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background: linear-gradient(140deg, black, #4B0082, black);
+}
+
+.card{
+	width: 400px;
+	height: 490px;
+	background: black;
+	padding: 50px;
+	border-radius: 30px;
+	box-shadow: 0 0 10px violet;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.disc{
+	width: 190px;
+	height: 190px;
+	border-radius: 50%;
+	margin: auto;
+	background: transparent;
+	margin-top: 20px;
+	box-shadow: 0 0 10px violet;
+	animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate{
+	0%{
+		transform: rotate(0);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+.logo{
+	width: 190px;
+	height: 190px;
+	border-radius: 50%;
+}
+
+.title{
+	font-size: 20px;
+	color: whitesmoke;
+	text-align: center;
+	margin-top: 50px;
+}
+
+p{
+	font-size: 12px;
+	color: whitesmoke;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.line{
+	width: 300px;
+	height: 5px;
+	border-radius: 30px;
+	background: grey;
+	margin: auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+#timer{
+	background: whitesmoke;
+	width: 300px;
+	height: 5px;
+	animation: slide;
+}
+
+@keyframes slide{
+	0%{
+		transform: translateX(-300px);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+#btn{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background: orangered;
+	padding: 10px;
+	border: none;
+	position: relative;
+	left: 120px;
+	top: 20px;
+	cursor: pointer;
+}
+
+#btn:hover{
+	background: whitesmoke;
+}
+
+#btn:hover span{
+	color: black;
+}
+
+#btn span{
+	font-size: 30px;
+	color: whitesmoke;
+}
+
+#btn2{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: whitesmoke;
+	padding: 10px;
+	border: none;
+	position: relative;
+	left: 130px;
+	top: 25px;
+	cursor: pointer;
+}
+
+#btn2 span{
+	font-size: 30px;
+	color: orangered;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+
+#btn3{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: whitesmoke;
+	padding: 10px;
+	border: none;
+	position: relative;
+	left: -45px;
+	top: 23px;
+	cursor: pointer;
+}
+
+#btn3 span{
+	font-size: 30px;
+	color: orangered;
+	margin-top: -5px;
+	margin-left: -5px;
+}
