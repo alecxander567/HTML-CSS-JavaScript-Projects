@@ -132,7 +132,7 @@ ul, li{
 @keyframes slide3{
     0%{
         opacity: 0;
-        transform: translateY(500px);
+        transform: translateY(90px);
     }
     100%{
         opacity: 1;
