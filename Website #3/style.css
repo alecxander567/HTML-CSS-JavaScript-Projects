@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.body{
+    background: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+ul, li{
+    margin: 20px;
+}
+
+.design{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    background: linear-gradient(160deg, rgb(181, 5, 5), orangered, rgb(238, 4, 4));
+    border-radius: 50%;
+    left: 750px;
+    top: -350px;
+    filter: blur(10px);
+    box-shadow: 0 0 90px orangered;
+}
+
+.design2{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    background: linear-gradient(160deg, goldenrod, gold, orange);
+    border-radius: 50%;
+    filter: blur(10px);
+    box-shadow: 0 0 90px yellow;
+    left: 390px;
+    bottom: 90px;
+}
+
+.design3{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50%;
+    background: blue;
+    top: -490px;
+    left: 30px;
+    filter: blur(10px);
+    box-shadow: 0 0 90px blue;
+}
+
+#front{
+    animation: slide, slideBack;
+}
+
+@keyframes slide{
+    0%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-700px);
+    }
+}
+
+@keyframes slideBack{
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#section2{
+    animation: slide2, slideUp, slideBack2, slideDown;
+    opacity: 0;
+}
+
+@keyframes slide2{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp{
+    0%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-700px);
+    }
+}
+
+@keyframes slideBack2{
+    0%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(1500px);
+    }
+}
+
+@keyframes slideDown{
+    0%{
+        opacity: 0;
+        transform: translateY(-700px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#section3{
+    animation: slide3, slideBack3;
+    opacity: 0;
+}
+
+@keyframes slide3{
+    0%{
+        opacity: 0;
+        transform: translateY(90px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideBack3{
+    0%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(1500px);
+    }
+}
+
+
+
+
