@@ -25,8 +25,7 @@ fetch(url)
     }
     return response.json();
   })
-  .then(data => {
-    // Handle the weather data
+  .then(data => {   
     console.log('Weather Data:', data);
     console.log(data);
 
@@ -52,7 +51,7 @@ fetch(url)
       } else if (apiWeatherDescription.includes("Overcast") || apiWeatherDescription.includes("snow")) {
         weather.src = "img/snow.png";
       } else {
-        weather.src = "img/sun.png"; // Fallback image
+        weather.src = "img/sun.png";
       }
 
     console.log(`Temperature in ${city}: ${apiTemperature}°C`);
