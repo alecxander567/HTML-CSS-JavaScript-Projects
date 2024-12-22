@@ -39,7 +39,6 @@ fetch(url)
     const apiLocationName = data.location.name;
     const apiRegion = data.location.tz_id; // Region name
     
-
     // Update DOM elements
     locationDisplay.textContent = `${apiLocationName}`;
     temperatureDisplay.textContent = `${apiTemperature}°C`;
@@ -59,15 +58,12 @@ fetch(url)
         weather.src = "img/sun.png"; // Fallback image
       }
 
-
     console.log(`Temperature in ${city}: ${apiTemperature}°C`);
     console.log(`Weather: ${apiWeatherDescription}`);
   })
   .catch(error => {
     // Handle errors
-    alert('Error fetching weather data: ' + error.message);
-    
+    alert('Error fetching weather data: ' + error.message); 
   });
-
 });
 
