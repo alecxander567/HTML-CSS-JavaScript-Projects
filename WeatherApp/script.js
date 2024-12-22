@@ -57,8 +57,7 @@ fetch(url)
     console.log(`Temperature in ${city}: ${apiTemperature}°C`);
     console.log(`Weather: ${apiWeatherDescription}`);
   })
-  .catch(error => {
-    // Handle errors
+  .catch(error => {
     alert('Error fetching weather data: ' + error.message); 
   });
 });
