@@ -15,8 +15,7 @@ submit.addEventListener('click', ()=>{
  	alert("Please input a valid city name!");
  	return;
  }
-
-// Fetch weather data
+
  const url = `https://api.weatherapi.com/v1/current.json?q=${city}&key=${API_KEY}`;	
 
 fetch(url)
@@ -30,16 +29,14 @@ fetch(url)
     // Handle the weather data
     console.log('Weather Data:', data);
     console.log(data);
-
-    // Extract values from API response
-    const apiTemperature = data.current.temp_c; // Correct property for temperature
-    const apiWeatherDescription = data.current.condition.text; // Correct property for weather description
-    const apiHumidity = data.current.humidity; // Correct property for humidity
-    const apiWindSpeed = data.current.wind_kph; // Correct property for wind speed
+
+    const apiTemperature = data.current.temp_c; 
+    const apiWeatherDescription = data.current.condition.text;
+    const apiHumidity = data.current.humidity; 
+    const apiWindSpeed = data.current.wind_kph;
     const apiLocationName = data.location.name;
-    const apiRegion = data.location.tz_id; // Region name
-    
-    // Update DOM elements
+    const apiRegion = data.location.tz_id;
+    
     locationDisplay.textContent = `${apiLocationName}`;
     temperatureDisplay.textContent = `${apiTemperature}°C`;
     humidity.textContent = `${apiHumidity}%`;
