@@ -9,7 +9,7 @@
     color: white;
     text-align: left;
     font-weight: 900;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 h1 span {
     color: greenyellow;
@@ -49,13 +49,17 @@ h1 span {
     font-family: "Rubik", serif;
     font-optical-sizing: auto;
     color: white;
-    margin-top: 270px;
+    margin-top: 320px;
     position: relative;
     top: 12px;
     height: auto;
     width: 80%;
     border: none;
     border-bottom: 1px solid white;
+    padding: 10px;
+}
+#search {
+    margin-top: 30px;
 }
 #clear {
    position: fixed;
