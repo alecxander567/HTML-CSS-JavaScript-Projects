@@ -28,7 +28,7 @@ search.addEventListener("click", ()=>{
             const result = data.items;
 
             if (result && result.length > 0) {
-                const outputHtml = result.map(item => `<p><a href="${item.link}"target="_blank">${item.title}</a></p><p>${item.snippet}</p><small>${item.displayLink}</small><br>`).join("");
+                const outputHtml = result.map(item => `<p><a href="${item.link}"target="_blank">${item.title}</a></p><p>${item.snippet}</p><small>${item.displayLink}</small><br><br>`).join("");
                 output.innerHTML = `<h5><strong>Here are some of the results from your search :</strong></h5><br><br>${outputHtml}`;
             } else {
                 output.innerHTML = "No results found.";
