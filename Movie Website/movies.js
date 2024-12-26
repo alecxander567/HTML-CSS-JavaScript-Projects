@@ -33,7 +33,7 @@ searchMovie.addEventListener("click", ()=>{
         });
      });
 
-        function displayMovies(movies) {
+        (movies) =>{
              movieContainer.innerHTML = ""; 
                 movies.forEach(movie => {
                     const movieDiv = document.createElement("div"); 
