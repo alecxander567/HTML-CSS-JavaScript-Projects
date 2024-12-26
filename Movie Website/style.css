@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(140deg, purple, darkblue, lightblue);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+.navbar {
+    box-shadow: 0 0 4px 0 white;
+    padding: 5px;
+    color: white;
+}
+.nav-link {
+    font-size: 15px;
+    color: white;
+}
+.nav-link:hover {
+    background: lightblue;
+    border-radius: 50px;
+}
+.nav-item {
+    margin-right: 50px;
+}
+.title {
+    margin-left: 50px;
+    font-weight: 900;
+}
+.mt-3 {
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: -350px;
+    top: 90px;
+    font-size: 15px;
+    padding: 25px;
+    background: transparent;
+    color: white;
+}
+.btn {
+    width: 50%;
+    border-radius: 50px;
+    padding: 10px;
+}
+#movieContainer {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+    max-height: 500px;
+    overflow: auto;
+}
+/* Movie Card */
+.movie {
+    background-color: #242424;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.movie:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Movie Image */
+.movie img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Movie Title */
+.movie p {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+/* Modal Background */
+/* Modal Background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    display: flex;         /* Ensure Flexbox is applied to content */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
