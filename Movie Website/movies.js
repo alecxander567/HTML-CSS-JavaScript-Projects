@@ -4,7 +4,7 @@ const userInput = document.getElementById("userInput");
 
 const apiKey = "50739ff8";
 
-searchMovie.addEventListener("click", ()=>{
+searchMovie.addEventListener("click", ()=> {
     const userSearch = userInput.value.trim();
 
     if (userSearch == "") {
@@ -33,7 +33,7 @@ searchMovie.addEventListener("click", ()=>{
         });
      });
 
-        (movies) =>{
+        (movies) => {
              movieContainer.innerHTML = ""; 
                 movies.forEach(movie => {
                     const movieDiv = document.createElement("div"); 
