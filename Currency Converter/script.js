@@ -37,8 +37,7 @@ fetch (apiUrl)
         const convertedAmount = input * exchangeRate;
       
         output.textContent = `${convertedAmount.toFixed(2)} ${selectedCurrency}`;
-    })
-
+    })
       fromInput.textContent = `${input} ${exchangeValue.value}`;
 });
 
