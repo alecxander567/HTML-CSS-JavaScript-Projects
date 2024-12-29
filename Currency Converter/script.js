@@ -22,26 +22,22 @@ fetch (apiUrl)
     .then (data => {
         console.log(data);
 
-        // Getting the currencies
         const rates = data.data;
         const selectedCurrency = targetCurrency.value; 
         const exchangeRate = rates[selectedCurrency]; 
 
-        // If no currency available in JSON
         if (!exchangeRate) {
             alert("Exchange rate for the selected currency is not available.");
             return;
         }
         
-        // Calculate the amount
         const convertedAmount = input * exchangeRate;
       
         output.textContent = `${convertedAmount.toFixed(2)} ${selectedCurrency}`;
-    })
+    })
       fromInput.textContent = `${input} ${exchangeValue.value}`;
 });
 
-// Clears the input and output field
 clear.addEventListener("click", () => {
     inputCurrency.value = "";
     targetCurrency.value = "#";
