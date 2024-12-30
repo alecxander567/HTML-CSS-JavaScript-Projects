@@ -31,9 +31,8 @@ searchMovie.addEventListener("click", () => {
         .catch(error => {
             console.error(`Fetch error: ${error.message}`);
         });
-     });
 
-        (movies) => {
+        function displayMovies(movie) {
              movieContainer.innerHTML = ""; 
                 movies.forEach(movie => {
                     const movieDiv = document.createElement("div"); 
@@ -52,6 +51,7 @@ searchMovie.addEventListener("click", () => {
             
                     movieContainer.appendChild(movieDiv);
                 });
-        }
+             }
+     });
 
-
+        
