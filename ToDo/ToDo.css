@@ -17,9 +17,9 @@ body{
 	box-shadow: 0 0 10px;
 	margin: auto;
 	margin-top: 50px;
-	border: 2px solid;
 	height: auto;
 	padding-bottom: 30px;
+	overflow: hidden;
 }
 .heading{
 	padding: 20px;
@@ -27,7 +27,6 @@ body{
 	text-align: left;
     color: whitesmoke;
     background: #FF3C00;
-    border-radius: 30px;
 }
 .note{
 	width: 60px;
