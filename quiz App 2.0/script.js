@@ -68,8 +68,8 @@ fetch (apiUrl)
          button.onclick = () => {
             buttons.forEach(btn => btn.disabled = true);
              if (button.textContent === correctAnswer) {
-             button.style.background = "greenyellow";
-             numbersOfCorrect++;
+                 button.style.background = "greenyellow";
+                 numbersOfCorrect++;
              } else {
                 button.style.background = "red";
 
