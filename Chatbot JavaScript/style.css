@@ -1,0 +1,42 @@
+/* Container for the chatbox */
+#chatbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    max-height: 450px;
+    overflow-y: auto;
+    padding-top: 150px;
+}
+
+/* User message styling */
+.myMessage {
+    width: fit-content;
+    max-width: 50%;
+    padding: 10px;
+    font-size: 15px;
+    background: rgb(11, 74, 212);
+    color: white;
+    border-radius: 20px;
+    align-self: flex-end; /* Align user messages to the right */
+    margin: 10px 5px;
+}
+
+/* Bot message styling */
+.botMessage {
+    width: fit-content;
+    max-width: 50%;
+    padding: 10px;
+    background: rgb(65, 64, 64);
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    align-self: flex-start; /* Align bot messages to the left */
+    margin: 10px 0;
+}
+.myMessage, .botMessage {
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
